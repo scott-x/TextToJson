@@ -6,7 +6,7 @@ parse text to json
 # install 
 go install github.com/scott-x/TextToJson
 mv $GOPATH/bin/TextToJson json
-json
+json [-e] # -e: exam https://github.com/scott-x/exam
 ```
 If your current folder doesn't have `a.txt`, it will give you a tip:
 
@@ -22,7 +22,6 @@ How to use iphone
 7.Type in your passcode using the buttons on the screen.
 ```
 As for the content of text, you can reffer to a.txt in this project.
-
 
 Enjoy yourself.
 
